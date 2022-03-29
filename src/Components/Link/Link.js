@@ -5,7 +5,7 @@ const Link = (props) => {
     console.log(props);
     return (
         <li className='mr-16'>
-            <a href={link}>{name}</a>
+            <a  href={link}>{name}</a>
          </li>
     );
 };
